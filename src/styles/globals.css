@@ -243,7 +243,16 @@ line-height: 3rem;
 								align-content: center!important;
 								justify-content: end!important;
 							}
-					  }
+							.myright{
+								display: grid;
+    align-content: center;
+    justify-content: center;
+							}.myleft{
+								padding: 3rem;
+							}
+					  }.myleft{
+						padding-left: 3rem;
+					}
 					
 						.mobile{width: 103%;
 						}
@@ -256,3 +265,6 @@ line-height: 3rem;
 						flex-wrap: nowrap;
 						align-content: center;
 						justify-content: space-around;}
+						.myright{display: grid;
+							align-content: center;
+							justify-content: end;}

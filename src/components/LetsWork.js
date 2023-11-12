@@ -5,7 +5,7 @@ import { FaLinkedinIn} from 'react-icons/fa';
 
 const LetsWork = () => {
   return (
-    <div className="lets-work pt-5">
+    <div className="lets-work pt-5" id="contact-section">
       <div className="row contact">
         <div className="col-6"><h1 className="mobfont">Ready to build something epic ?</h1>
       <h1 className="d-inline talk mobfont1">Lets connect</h1>    <a href="tel:9866531011" > <button type="button" className=" ms-4 d-inline btn btn-outline-light btn-lg con">+91 986 653 1011</button></a>

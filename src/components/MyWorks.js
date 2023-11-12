@@ -14,7 +14,7 @@ function MyWorks() {
   }
 
   return (
-    <div className='mt-5'>
+    <div className='mt-5' id="work-section">
       <h2 className='text-center'>My Works</h2>     
       <p className='text-center'>Crafting Digital Delights for the Modern Age - Where Innovation Meets Design!</p> 
       <div className='work s-hide row m-5'>

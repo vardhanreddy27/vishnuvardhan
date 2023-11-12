@@ -5,7 +5,6 @@ import { TweenMax } from 'gsap';
 import Image from 'next/image'
 import { HiMiniPlusCircle } from 'react-icons/hi2';
 import { HiPlusSm } from 'react-icons/hi';
-
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 function Vertical() {
 	const sectionRef = useRef(null);
@@ -48,7 +47,7 @@ function Vertical() {
 
 
 	return (
-		<div className="pt-5">
+		<div className="pt-5" id="about-section">
  <section className="scroll-section-outer">
  <div ref={triggerRef}>
         <div ref={sectionRef}  className="scroll-section-inner">
