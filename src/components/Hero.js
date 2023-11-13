@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import SplitType from 'split-type'
 import Image from 'next/image'
+import Link from "next/link";
 
 export default function Hero() {
 	useEffect(() => {
@@ -23,7 +24,7 @@ const handleNavigation = (targetId) => {
 	return (
 		<div className=" fluid-container" >
 			<div className="row s-hide">
-			<a href="/" className="refresh">	<div className="col-6 pt-3 ps-5 pointer">@ Code by Vardhan</div></a>
+			<Link href="/" className="refresh">	<div className="col-6 pt-3 ps-5 pointer">@ Code by Vardhan</div></Link>
 				<div className="col-6 pt-3 pe-5 text-end">
 					<div className="row flex-row-reverse">
 					<div className="col-2 pointer" onClick={() => handleNavigation('contact-section')}>
