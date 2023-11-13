@@ -42,7 +42,7 @@ const handleNavigation = (targetId) => {
 			<div className="row myleft pt-5">
     <div className="col-md-6">
         <h2 id="title" className="mt-5 pt-5 main-text animate">Hi, Welcome!</h2>
-        <h1 className="title animate" id="main">I'm Vardhan</h1>
+        <h1 className="title animate" id="main">{` I'm Vardhan `}</h1>
         <div className="row">
             <div className="col-12 animate sub" id="sub">
                 <p>Freelancer, Solution, Designer, Web, Developer</p>
