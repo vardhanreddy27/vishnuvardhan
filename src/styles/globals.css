@@ -268,3 +268,8 @@ line-height: 3rem;
 						.myright{display: grid;
 							align-content: center;
 							justify-content: end;}
+							.refresh{display: contents;
+								color: black;}
+								.pointer{
+									cursor: pointer;
+								}

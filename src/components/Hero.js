@@ -23,16 +23,16 @@ const handleNavigation = (targetId) => {
 	return (
 		<div className=" fluid-container" >
 			<div className="row s-hide">
-				<div className="col-6 pt-3 ps-5">@ Code by Vardhan</div>
+			<a href="/" className="refresh">	<div className="col-6 pt-3 ps-5 pointer">@ Code by Vardhan</div></a>
 				<div className="col-6 pt-3 pe-5 text-end">
 					<div className="row flex-row-reverse">
-					<div className="col-2" onClick={() => handleNavigation('contact-section')}>
+					<div className="col-2 pointer" onClick={() => handleNavigation('contact-section')}>
               contact
             </div>
-            <div className="col-2" onClick={() => handleNavigation('about-section')}>
+            <div className="col-2 pointer" onClick={() => handleNavigation('about-section')}>
               about
             </div>
-            <div className="col-2" onClick={() => handleNavigation('work-section')}>
+            <div className="col-2 pointer" onClick={() => handleNavigation('work-section')}>
               work
             </div>
 
